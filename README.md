@@ -1,21 +1,14 @@
-# node-red-contrib-teachable-machine
+# node-red-contrib-teachable-machine-cloudonly
 
-[![Node-RED node](https://img.shields.io/badge/Node--RED-node-red?logo=node-red)](https://nodered.org)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/bonastreyair/node-red-contrib-teachable-machine/main.svg)](https://results.pre-commit.ci/latest/github/bonastreyair/node-red-contrib-teachable-machine/main)
-[![CI](https://img.shields.io/github/workflow/status/bonastreyair/node-red-contrib-teachable-machine/CI?label=test&logo=github)](https://github.com/bonastreyair/node-red-contrib-teachable-machine/actions?workflow=CI)
-[![npm latest release](https://img.shields.io/npm/v/node-red-contrib-teachable-machine?logo=npm)](https://www.npmjs.com/package/node-red-contrib-teachable-machine)
-[![npm total downloads](https://img.shields.io/npm/dt/node-red-contrib-teachable-machine)](https://www.npmjs.com/package/node-red-contrib-teachable-machine)
-[![Package Quality](https://packagequality.com/shield/node-red-contrib-teachable-machine.svg)](https://packagequality.com/#?package=node-red-contrib-teachable-machine)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?color=yellow&logo=JavaScript&logoColor=white)](https://standardjs.com)
-[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/bonastreyair/node-red-contrib-teachable-machine?logo=codeclimate)](https://codeclimate.com/github/bonastreyair/node-red-contrib-teachable-machine/maintainability)
-[![GitHub license](https://img.shields.io/github/license/bonastreyair/node-red-contrib-teachable-machine?color=blue)](https://github.com/bonastreyair/node-red-contrib-teachable-machine/blob/master/LICENSE)
-[![donate PayPal](https://img.shields.io/badge/donate-PayPal-blue)](https://www.paypal.me/bonastreyair)
+| Version | Repo |
+|:--|:--|
+| 1.3.1 | Origin: https://github.com/bonastreyair/node-red-contrib-teachable-machine |
+| 1.0.0 | THIS FORKED REPO |
 
-A [Node-RED](https://nodered.org) node based in [tensorflow.js](https://www.tensorflow.org/js) that enables to run custom image classification trained models using [Teachable Machine](https://teachablemachine.withgoogle.com/train/image) tool. All notable changes to this project will be documented in the [CHANGELOG.md](https://github.com/bonastreyair/node-red-contrib-teachable-machine/blob/main/CHANGELOG.md) file.
+This repository was forked from version 1.3.1 of the original repository. This is a workaround for a bug in the latest version of the original when installed on Node-RED running on virtualized PaaS (e.g. Railway, Render). Therefore, as the name "cloudonly" implies, it does not support loading model files that are locally located and will not be supported in the future.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/37800834/79343223-736d7d80-7f2e-11ea-9c85-b83fc73b0952.png" height="70">
-</p>
+---
+---
 
 ## Install
 
