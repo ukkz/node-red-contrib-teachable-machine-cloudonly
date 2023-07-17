@@ -2,7 +2,7 @@ module.exports = function (RED) {
   /* Initial Setup */
   const { Readable } = require('stream')
   const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args))
-  const tf = require('@tensorflow/tfjs')
+  const tf = require('@tensorflow/tfjs-node')
   const PImage = require('pureimage')
 
   function isPng(buffer) {
